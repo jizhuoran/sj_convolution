@@ -5,17 +5,19 @@ This repo is a demo of the technical report of
 It achieves 14.6x speedup than the most popular im2col convolution algorithm, and 2.1x speedup than the fastest existing convolution algorithm (direct convolution) as far as we know.
 
 
-Dependency:
+Dependency: 
+
 ``
-OpenCL, clBLAS, OpenBLAS(for result checking)
+OpenCL, clBLAS, OpenBLAS(for result checking) 
 ``
 
 
 How to use:
+
 ``
-	mkdir build && cd build
-	cmake ..
-	make -j16 
+	mkdir build && cd build 
+	cmake .. 
+	make -j16  
 ``
 
 This is just a prototype to illustrate the idea.
