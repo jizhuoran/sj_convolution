@@ -90,6 +90,10 @@ float sj_convolution(
 		in_width, in_height
 	);
 
+	std::cout << "------------------ The code is ---------------------" << std::endl;
+	std::cout << kernel_code << std::endl;
+	std::cout << "----------------------------------------------------" << std::endl;
+
 
 	size_t kernel_size = kernel_code.size() + 1;	
   	const char* kernelSource = kernel_code.c_str();
