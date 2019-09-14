@@ -6,6 +6,7 @@ It achieves 14.6x speedup than the most popular im2col convolution algorithm, an
 
 
 Dependency: 
+ 
 
 ``
 OpenCL, clBLAS, OpenBLAS(for result checking) 
@@ -13,6 +14,7 @@ OpenCL, clBLAS, OpenBLAS(for result checking)
 
 
 How to use:
+
 
 ``
 	mkdir build && cd build 
